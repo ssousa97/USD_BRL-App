@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LearnAndroid</string>
+    <string name="valor_em_real">Valor em Real: </string>
+    <string name="valor_em_dolar">Valor em Dolar: </string>
+    <string name="us_dolar">US$</string>
+    <string name="calcular">Calcular</string>
+    <string name="quotation_api"><![CDATA[https://free.currconv.com/api/v7/convert?q=USD_BRL&compact=ultra&apiKey=41bcbd5beb8acab9900d]]></string>
+</resources>

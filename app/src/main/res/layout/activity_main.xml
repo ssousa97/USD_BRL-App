@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="1dp"
+        android:background="@color/colorGreenLight"
+        android:text="@string/valor_em_real"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/etext_real_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@color/colorBlueLight"
+        android:text="@string/valor_em_dolar"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/text_dollar_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="@string/us_dolar"
+        android:gravity="center"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/calcular" />
+
+
+
+</LinearLayout>
